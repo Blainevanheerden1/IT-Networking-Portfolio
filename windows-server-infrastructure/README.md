@@ -16,7 +16,7 @@ Set up three VMs (`Blinds-Trellis-Server`, `Blinds-Trellis-Client1`, `Blinds-Tre
 ![VirtualBox VM overview](images/01-vm-overview.png)
 
 Server was assigned `192.168.10.10`, with Client1 on `.11` and Client2 on `.12`. Verified connectivity with `ping` between both clients and the server — 0% packet loss on all tests.
-![Ping test from Server](images/02-ping-client1.png)
+![Ping test from Server](images/02-ping-server.png)
 Server ping sent 
 ![Ping test from Server](images/03-ping-client1.png)
 Client1 ping sent 
