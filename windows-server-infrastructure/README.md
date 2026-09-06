@@ -16,10 +16,12 @@ Set up three VMs (`Blinds-Trellis-Server`, `Blinds-Trellis-Client1`, `Blinds-Tre
 ![VirtualBox VM overview](images/01-vm-overview.png)
 
 Server was assigned `192.168.10.10`, with Client1 on `.11` and Client2 on `.12`. Verified connectivity with `ping` between both clients and the server — 0% packet loss on all tests.
-
-![Ping test from Client1](images/02-ping-client1.png)
-![Ping test from Client2](images/03-ping-client2.png)
-
+![Ping test from Server](images/02-ping-client1.png)
+Server ping sent 
+![Ping test from Server](images/03-ping-client1.png)
+Client1 ping sent 
+![Ping test from Client2](images/04-ping-client2.png)
+Client2 ping sent 
 All VM NIC's were configured so the communication between them is internal/host-only and I provided proof they ping each other.
 
 ## Part 2: Client Configuration
@@ -30,9 +32,9 @@ Configured both clients to a business-ready standard:
 - Set the desktop background to the organisation logo
 
 
-![Disk partitioning](images/04-disk-partition.png)
-![Restore point created](images/05-restore-point.png)
-![Desktop Background Change](images/06-restore-point.png)
+![Disk partitioning](images/05-disk-partition.png)
+![Restore point created](images/06-restore-point.png)
+![Desktop Background Change](images/07-restore-point.png)
 
 ## Part 3: Server Roles — Active Directory, DHCP, Group Policy, DNS
 
@@ -41,8 +43,8 @@ Configured both clients to a business-ready standard:
 - **Group Policy**: Applied a GPO (e.g. enforced desktop wallpaper) and confirmed it took effect on a client.
 - **DNS break/fix**: Deliberately set an incorrect DNS value, demonstrated the resulting failure, then corrected it and confirmed resolution worked again.
 
-![DHCP role installation](images/07-dhcp-role.png)
-![DHCP lease confirmation](images/08-dhcp-lease.png)
+![DHCP role installation](images/08-dhcp-role.png)
+![DHCP lease confirmation](images/09-dhcp-lease.png)
 
 ## Challenges
 [What actually tripped you up — e.g. did the internal network not talk at first? Did AD promotion need a reboot you didn't expect? Did the DNS break/fix behave differently than predicted?]
