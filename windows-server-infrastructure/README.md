@@ -67,7 +67,12 @@ Configured both clients to a business-ready standard:
 
 
 ![DNS Break](images/12-dhcp-role.png)
+
+Purposely entering failure state: nslookup repeatedly timing out against 192.168.10.99
+
 ![DNS fix](images/13-dhcp-role.png)
+
+nslookup succeeding, resolving to 192.168.10.10, success state
 
 ##Challenges
 
