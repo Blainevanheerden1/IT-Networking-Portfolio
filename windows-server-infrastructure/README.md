@@ -76,7 +76,8 @@ nslookup succeeding, resolving to 192.168.10.10, success state
 
 ##Challenges
 
-[What actually tripped you up — e.g. did the internal network not talk at first? Did AD promotion need a reboot you didn't expect? Did the DNS break/fix behave differently than predicted?]
+Challenge: After correcting the DNS setting back to the right server, nslookup still failed at first — the client had cached the broken DNS server address locally, so simply fixing the setting wasn't enough. Running ipconfig /flushdns to clear the resolver cache was the extra step needed before resolution actually succeeded.
 
 ## What I learned
-[Your takeaway — e.g. how DHCP scopes eliminate manual IP management at scale, or how Group Policy centralizes configuration across a domain]
+
+What I learned: DNS troubleshooting isn't just about the server-side configuration — the client's local resolver cache can hold onto stale (or broken) records even after the DNS setting itself has been corrected. nslookup combined with ipconfig /flushdns became a much more reliable way to verify a real fix, rather than trusting the config screen alone.
