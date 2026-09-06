@@ -22,6 +22,7 @@ Server ping sent
 Client1 ping sent 
 ![Ping test from Client2](images/04-ping-client2.png)
 Client2 ping sent 
+
 All VM NIC's were configured so the communication between them is internal/host-only and I provided proof they ping each other.
 
 ## Part 2: Client Configuration
