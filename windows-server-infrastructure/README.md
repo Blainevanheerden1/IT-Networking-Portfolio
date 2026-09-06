@@ -26,11 +26,11 @@ Configured both clients to a business-ready standard:
 - Partitioned the disk into a 1/3 C: (system) / 2/3 D: (Business Data) split
 - Enabled System Protection and created a restore point on each client
 - Set the desktop background to the organisation logo
-- Set correct time zone with automatic time sync enabled
-- Configured screen/sleep timeouts appropriate for a business environment
+
 
 ![Disk partitioning](images/04-disk-partition.png)
 ![Restore point created](images/05-restore-point.png)
+![Desktop Background Change](images/06-restore-point.png)
 
 ## Part 3: Server Roles — Active Directory, DHCP, Group Policy, DNS
 
@@ -39,8 +39,8 @@ Configured both clients to a business-ready standard:
 - **Group Policy**: Applied a GPO (e.g. enforced desktop wallpaper) and confirmed it took effect on a client.
 - **DNS break/fix**: Deliberately set an incorrect DNS value, demonstrated the resulting failure, then corrected it and confirmed resolution worked again.
 
-![DHCP role installation](images/06-dhcp-role.png)
-![DHCP lease confirmation](images/07-dhcp-lease.png)
+![DHCP role installation](images/07-dhcp-role.png)
+![DHCP lease confirmation](images/08-dhcp-lease.png)
 
 ## Challenges
 [What actually tripped you up — e.g. did the internal network not talk at first? Did AD promotion need a reboot you didn't expect? Did the DNS break/fix behave differently than predicted?]
