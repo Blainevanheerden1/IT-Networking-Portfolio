@@ -20,6 +20,8 @@ Server was assigned `192.168.10.10`, with Client1 on `.11` and Client2 on `.12`.
 ![Ping test from Client1](images/02-ping-client1.png)
 ![Ping test from Client2](images/03-ping-client2.png)
 
+All VM NIC's were configured so the communication between them is internal/host-only and I provided proof they ping each other.
+
 ## Part 2: Client Configuration
 
 Configured both clients to a business-ready standard:
