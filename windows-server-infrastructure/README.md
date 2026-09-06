@@ -49,7 +49,6 @@ Wallpaper changed!
 
 - **Active Directory Domain Services**: Promoted the server to a domain controller, created the domain, and joined at least one client.
 - **DHCP**: Installed the DHCP role and configured an active scope (`192.168.10.0/24`), then confirmed both clients received leases automatically.
-- **Group Policy**: Applied a GPO (e.g. enforced desktop wallpaper) and confirmed it took effect on a client.
 - **DNS break/fix**: Deliberately set an incorrect DNS value, demonstrated the resulting failure, then corrected it and confirmed resolution worked again.
 
 ![Active DDS server promotion confirmation](images/08-active-DDS.png)
