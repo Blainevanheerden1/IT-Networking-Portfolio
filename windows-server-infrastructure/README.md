@@ -53,9 +53,10 @@ Wallpaper changed!
 - **DNS break/fix**: Deliberately set an incorrect DNS value, demonstrated the resulting failure, then corrected it and confirmed resolution worked again.
 
 ![Active DDS server promotion confirmation](images/08-active-DDS.png)
-Joining Confirmation pop up
+~Joining Confirmation pop up
 ![DDS persisted](images/09-active-DDS.png)
-This shows that the join persisted 
+
+~This shows that the join persisted 
 ![DHCP role installation](images/10-dhcp-role.png)
 ![DHCP lease confirmation](images/11-dhcp-lease.png)
 ![Applied GPO](images/12-dhcp-role.png)
