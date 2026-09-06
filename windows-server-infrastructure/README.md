@@ -52,11 +52,12 @@ Wallpaper changed!
 - **Group Policy**: Applied a GPO (e.g. enforced desktop wallpaper) and confirmed it took effect on a client.
 - **DNS break/fix**: Deliberately set an incorrect DNS value, demonstrated the resulting failure, then corrected it and confirmed resolution worked again.
 
-![Active DDS server promotion](images/08-dhcp-role.png)
-![DHCP role installation](images/09-dhcp-role.png)
-![DHCP lease confirmation](images/10-dhcp-lease.png)
-![Applied GPO](images/11-dhcp-role.png)
-![DNS break/fix](images/12-dhcp-role.png)
+![Active DDS server promotion confirmation](images/08-dhcp-role.png)
+![DDS persisted](images/09-dhcp-role.png)
+![DHCP role installation](images/10-dhcp-role.png)
+![DHCP lease confirmation](images/11-dhcp-lease.png)
+![Applied GPO](images/12-dhcp-role.png)
+![DNS break/fix](images/13-dhcp-role.png)
 
 ##Challenges
 
