@@ -66,8 +66,8 @@ Configured both clients to a business-ready standard:
 ~Address leases showing BT-Client1 with a lease
 
 
-![Applied GPO](images/12-dhcp-role.png)
-![DNS break/fix](images/13-dhcp-role.png)
+![DNS Break](images/12-dhcp-role.png)
+![DNS fix](images/13-dhcp-role.png)
 
 ##Challenges
 
