@@ -17,11 +17,11 @@ Set up three VMs (`Blinds-Trellis-Server`, `Blinds-Trellis-Client1`, `Blinds-Tre
 
 Server was assigned `192.168.10.10`, with Client1 on `.11` and Client2 on `.12`. Verified connectivity with `ping` between both clients and the server — 0% packet loss on all tests.
 ![Ping test from Server](images/02-ping-server.png)
-Server ping sent 
+~Server ping sent 
 ![Ping test from Server](images/03-ping-client1.png)
-Client1 ping sent 
+~Client1 ping sent 
 ![Ping test from Client2](images/04-ping-client2.png)
-Client2 ping sent 
+~Client2 ping sent 
 
 All VM NIC's were configured so the communication between them is internal/host-only and I provided proof they ping each other.
 
@@ -35,15 +35,15 @@ Configured both clients to a business-ready standard:
 
 ![Disk partitioning](images/05-disk-partition.png)
 
-The disks are partitioned
+~The disks are partitioned
 
 ![Restore point created](images/06-restore-point.png)
 
-System protection enabled and restore points created 
+~System protection enabled and restore points created 
 
 ![Desktop Background Change](images/07-restore-point.png)
 
-Wallpaper changed!
+~Wallpaper changed!
 
 ## Part 3: Server Roles — Active Directory, DHCP, Group Policy, DNS
 
@@ -56,8 +56,16 @@ Wallpaper changed!
 ![DDS persisted](images/09-active-DDS.png)
 
 ~This shows that the join persisted 
+
 ![DHCP role installation](images/10-dhcp-role.png)
+
+~DHCP Scope showing the address pool 
+
 ![DHCP lease confirmation](images/11-dhcp-lease.png)
+
+~Address leases showing BT-Client1 with a lease
+
+
 ![Applied GPO](images/12-dhcp-role.png)
 ![DNS break/fix](images/13-dhcp-role.png)
 
