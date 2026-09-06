@@ -34,8 +34,16 @@ Configured both clients to a business-ready standard:
 
 
 ![Disk partitioning](images/05-disk-partition.png)
+
+The disks are partitioned
+
 ![Restore point created](images/06-restore-point.png)
+
+System protection enabled and restore points created 
+
 ![Desktop Background Change](images/07-restore-point.png)
+
+Wallpaper changed!
 
 ## Part 3: Server Roles — Active Directory, DHCP, Group Policy, DNS
 
