@@ -1,7 +1,7 @@
 # Windows Server Infrastructure Lab
 
 ## Objective
-Build a small virtualized business network from scratch: deploy a Windows Server and two Windows client VMs, configure them to a business-ready standard, then stand up core infrastructure services (Active Directory, DHCP, DNS) and demonstrate they work correctly. This will be my first ever personal networking project
+Build a small virtualized business network from scratch: deploy a Windows Server and two Windows client VMs, configure them to a business-ready standard, then stand up core infrastructure services (Active Directory, DHCP, DNS) and demonstrate they work correctly. This will be my first ever personal networking project, and it was done using a real buisness as a case study!
 
 ## Environment & Tools
 - Oracle VirtualBox
